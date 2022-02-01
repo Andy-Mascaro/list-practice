@@ -1,7 +1,8 @@
-export const animal = [{
-    type: 'dog',
-    numberOfLegs: '4',
-    class: 'mammals',
-    breed: 'mastiff',
-    image: 'mastiff.jpeg'
-}];
+export const animals = [
+    {
+        type: 'dog',
+        numberOfLegs: '4',
+        class: 'mammals',
+        breed: 'mastiff',
+        image: 'mastiff.jpeg',
+    }];
