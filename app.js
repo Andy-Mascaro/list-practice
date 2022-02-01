@@ -1,5 +1,8 @@
 // import functions and grab DOM elements
 
+import {animals} from './animals.js';
+
+
 // let state
 
 // set event listeners 
