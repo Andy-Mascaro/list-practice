@@ -11,7 +11,7 @@ export function renderAnimal(animal) {
     
 
     const p = document.createElement('p');
-    p.textContent = `${animal.class} with ${animal.numberOfLegs} legs ${animal.breed}.`; 
+    p.textContent = `${animal.class} with ${animal.numberOfLegs} legs, Breed ${animal.breed}.`; 
     div.append(h2, img, p);
     return div;
 
