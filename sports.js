@@ -1,1 +1,1 @@
-export const sports = ['Baseball', 'Hockey', 'Soccer'];
+export const sports = ['Baseball', 'Hockey', 'Soccer', 'Tennis'];

@@ -22,4 +22,12 @@ export const animals = [
         breed: 'Retriever',
         image: 'retriever.jpeg',
     },
+
+    {
+        type: 'shark',
+        numberOfLegs: 0,
+        class: 'Fish',
+        breed: 'Hammerhead',
+        image: 'hammerhead.jpeg',
+    }
 ];

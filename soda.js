@@ -22,4 +22,11 @@ export const sodas = [
         },
     },
 
+    { name:'Squirt',
+        nutrition:{ 
+            calories: 120,
+            sugar: '40g',
+        },
+    },
+    
 ];
