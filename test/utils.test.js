@@ -1,4 +1,4 @@
-import { renderAnimal, renderSoda, renderCar, renderSport } from '../utils.js';
+import { renderAnimal, renderSoda, renderCar, renderSport, } from '../utils.js';
 
 const test = QUnit.test;
 
