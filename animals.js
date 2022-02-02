@@ -1,7 +1,7 @@
 export const animals = [
     {
         type: 'dog',
-        numberOfLegs: '4',
+        numberOfLegs: 4,
         class: 'Mammal',
         breed: 'Mastiff',
         image: 'mastiff.jpeg',
@@ -9,7 +9,7 @@ export const animals = [
 
     {
         type: 'cat',
-        numberOfLegs: '4',
+        numberOfLegs: 4,
         class: 'Mammal',
         breed: 'Siamese',
         image: 'siamese.jpeg',
@@ -17,7 +17,7 @@ export const animals = [
 
     {
         type: 'dog',
-        numberOfLegs: '4',
+        numberOfLegs: 4,
         class: 'Mammal',
         breed: 'Retriever',
         image: 'retriever.jpeg',

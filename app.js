@@ -12,6 +12,21 @@ for (let animal of animals) {
 }
 
 
+
+
+import { sodas } from './soda.js';
+import { renderSoda } from './utils.js';
+
+
+const sodaList = document.getElementById('soda-list');
+
+for (let soda of sodas) {
+    const div = renderSoda(soda);
+    sodaList.append(div);
+}
+
+
+
 // let state
 
 // set event listeners 

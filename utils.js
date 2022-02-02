@@ -16,3 +16,24 @@ export function renderAnimal(animal) {
     return div;
 
 }
+
+
+
+export function renderSoda(soda) {
+    const div = document.createElement('div');
+    div.classList.add('soda');
+    
+    const h2 = document.createElement('h2');
+    h2.textContent = soda.name.toUpperCase();
+  
+
+    // const img = document.createElement('img');
+    // img.src = `./assets/${soda.image}`;
+    
+
+    const p = document.createElement('p');
+    p.textContent = `${soda.name} has a ${soda.nutrition.calories} calories and ${soda.nutrition.sugar} of sugar.`; 
+    div.append(h2, p);
+    return div;
+
+}
