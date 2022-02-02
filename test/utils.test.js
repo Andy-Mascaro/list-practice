@@ -1,4 +1,4 @@
-import { renderAnimal, renderSoda, renderCar } from '../utils.js';
+import { renderAnimal, renderSoda, renderCar, renderSport } from '../utils.js';
 
 const test = QUnit.test;
 
@@ -42,6 +42,19 @@ test('renderCar should return a <div> with cars info', (expect) => {
     const expected = `<div class="cars" id="cars-list"><div class="car"><h2>TOYOTA</h2><p>Corolla,Tundra,Camry .</p></div><div class="car"><h2>SUBARU</h2><p>Impreza,Wrx,Outback .</p></div><div class="car"><h2>FORD</h2><p>Mustang,Bronco,Focus .</p></div></div>`;
 
     const actual = renderCar({
+    
+    });
+    expect.equal(actual.outerHTML, expected);
+});
+
+
+
+
+test('renderSport should return a <div> with cars info', (expect) => {
+
+    const expected = `<div class="sport" id="sport-list"><h2>Sports</h2><div class="sport"><p>Baseball .</p></div><div class="sport"><p>Hockey .</p></div><div class="sport"><p>Soccer .</p></div></div>`; 
+
+    const actual = renderSport({
     
     });
     expect.equal(actual.outerHTML, expected);

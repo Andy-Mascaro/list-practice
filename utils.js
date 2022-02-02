@@ -65,3 +65,25 @@ export function renderCar(car) {
 
 
 
+export function renderSport(sport) {
+    const div = document.createElement('div');
+    div.classList.add('sport');
+    
+    // const h2 = document.createElement('h2');
+    // h2.textContent = sport.toUpperCase();
+  
+
+    // const img = document.createElement('img');
+    // img.src = `./assets/${soda.image}`;
+    
+
+    const p = document.createElement('p');
+    p.textContent = `${sport} .`; 
+    div.append(p);
+    return div;
+
+}
+
+
+
+

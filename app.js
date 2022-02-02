@@ -40,6 +40,17 @@ for (let car of cars) {
 }
 
 
+
+import { sports } from './sports.js';
+import { renderSport } from './utils.js';
+
+
+const sportList = document.getElementById('sport-list');
+
+for (let sport of sports) {
+    const div = renderSport(sport);
+    sportList.append(div);
+}
 // let state
 
 // set event listeners 
