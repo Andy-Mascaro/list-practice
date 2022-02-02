@@ -27,6 +27,19 @@ for (let soda of sodas) {
 
 
 
+
+import { cars } from './cars.js';
+import { renderCar } from './utils.js';
+
+
+const carList = document.getElementById('cars-list');
+
+for (let car of cars) {
+    const div = renderCar(car);
+    carList.append(div);
+}
+
+
 // let state
 
 // set event listeners 
